@@ -27,3 +27,5 @@ Route::get('checkdb', function () {
         echo "Connected successfully to database: " . DB::connection()->getDatabaseName();
     }
 });
+
+

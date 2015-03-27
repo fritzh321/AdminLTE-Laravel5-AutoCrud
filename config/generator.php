@@ -19,6 +19,8 @@ return [
 
 	'path_controller' => app_path('Http/Controllers/'),
 
+	'path_api_controller' => app_path('Http/Controllers/API/'),
+
 	'path_views' => base_path('resources/views'),
 
 	'path_request' => app_path('Http/Requests/'),
@@ -41,6 +43,8 @@ return [
 
 	'namespace_controller' => 'App\Http\Controllers',
 
+	'namespace_api_controller' => 'App\Http\Controllers\API',
+
 	'namespace_request' => 'App\Http\Requests',
 
 	/*
@@ -48,19 +52,31 @@ return [
 	| Model extend
 	|--------------------------------------------------------------------------
 	|
-	| Configuration for model extend.
-	| By default Eloquent model will be used
+	| Model extend Configuration.
+	| By default Eloquent model will be used.
+	| If you want to extend your own custom model then you can specify "model_extend" => true and "model_extend_namespace" & "model_extend_class".
+	|
+	| e.g.
+	| 'model_extend' => true,
+	| 'model_extend_namespace' => 'App\Models\AppBaseModel as AppBaseModel',
+	| 'model_extend_class' => 'AppBaseModel',
 	|
 	*/
 
-	// if false will use Eloquent model
 	'model_extend' => false,
 
-	// Namespace of extended model
-	// eg. Illuminate\Database\Eloquent\Model
-	// eg. Illuminate\Database\Eloquent\Model as Model
 	'model_extend_namespace' => 'Illuminate\Database\Eloquent\Model',
 
-	// Class name of extended class
 	'model_extend_class' => 'Model',
+
+	/*
+	|--------------------------------------------------------------------------
+	| API routes prefix
+	|--------------------------------------------------------------------------
+	|
+	| By default "api" will be prefix
+	|
+	*/
+
+	'api_prefix'	=>   'api',
 ];

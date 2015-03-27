@@ -1,6 +1,6 @@
-@extends('app')
+@extends('base')
 
-@section('content')
+@section('template')
     <body class="login-page">
 
     <div class="login-box">

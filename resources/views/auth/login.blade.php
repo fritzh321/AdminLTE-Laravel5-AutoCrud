@@ -1,9 +1,9 @@
-@extends('app')
+@extends('base')
 @section('header')
 <link href="{{ url('js/plugins/iCheck/square/blue.css') }}" rel="stylesheet" type="text/css">
 @endsection
 
-@section('content')
+@section('template')
     <body class="login-page">
 
     <div class="login-box">

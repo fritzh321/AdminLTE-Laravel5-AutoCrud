@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e713b6f2a5fb670b928f00168be1b9b3",
+    "hash": "3376b03b8ec14819e1e98f14b0db8202",
     "packages": [
         {
             "name": "barryvdh/laravel-ide-helper",
@@ -1180,16 +1180,16 @@
         },
         {
             "name": "mitulgolakiya/laravel-api-generator",
-            "version": "v1.0",
+            "version": "v1.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mitulgolakiya/laravel-api-generator.git",
-                "reference": "7a3c916db7a4e1629d2f1d28987ba8cb6934641a"
+                "reference": "5735469cf12632db6ab9341c3c7e36b2f48971ad"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mitulgolakiya/laravel-api-generator/zipball/7a3c916db7a4e1629d2f1d28987ba8cb6934641a",
-                "reference": "7a3c916db7a4e1629d2f1d28987ba8cb6934641a",
+                "url": "https://api.github.com/repos/mitulgolakiya/laravel-api-generator/zipball/5735469cf12632db6ab9341c3c7e36b2f48971ad",
+                "reference": "5735469cf12632db6ab9341c3c7e36b2f48971ad",
                 "shasum": ""
             },
             "require": {
@@ -1226,7 +1226,7 @@
                 "model",
                 "scaffold"
             ],
-            "time": "2015-03-23 19:07:36"
+            "time": "2015-03-27 11:58:26"
         },
         {
             "name": "monolog/monolog",
