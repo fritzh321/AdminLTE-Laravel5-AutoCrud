@@ -11,9 +11,25 @@
 ```
 composer install
 npm install
+php artisan vendor:publish --provider="Mitul\Generator\GeneratorServiceProvider"
 gulp --production
 ```
+1. Fire the artisan command to generate API for Model, or to generate scaffold with views for web applications
 
+        php artisan mitul.generator:api ModelName
+        php artisan mitul.generator:scaffold ModelName
+        
+    e.g.
+    
+        php artisan mitul.generator:api Project
+        php artisan mitul.generator:api Post
+ 
+        php artisan mitul.generator:scaffold Project
+        php artisan mitul.generator:scaffold Post
+ 
 ### License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+The API Generator is created by [Mitul Golakiya](https://github.com/mitulgolakiya).
+AdminLTE is an open source project by [Almsaeed Studio](https://almsaeedstudio.com) that is licensed under [MIT](http://opensource.org/licenses/MIT). Almsaeed Studio
+reserves the right to change the license of future releases.
